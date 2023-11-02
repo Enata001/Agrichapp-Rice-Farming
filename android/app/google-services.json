@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "857584310644",
+    "firebase_url": "https://agrich-111be-default-rtdb.firebaseio.com",
+    "project_id": "agrich-111be",
+    "storage_bucket": "agrich-111be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857584310644:android:d1f286b79f4b113726b421",
+        "android_client_info": {
+          "package_name": "com.example.agrichapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857584310644-s7irrsp90tmqjrak1b98rrpndbukr45b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agrichapp",
+            "certificate_hash": "67c7f6fcc8a5df7e9a1c428a59a5375c5e8a3dca"
+          }
+        },
+        {
+          "client_id": "857584310644-dhtnfr1hrqfelvh65csof770ndre6h06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT8eOsZAz34JuqFHRNAFkpzC_-oMRw9TY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857584310644-dhtnfr1hrqfelvh65csof770ndre6h06.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "857584310644-jksb9q18c6gp4cr23tsh492bn9uc1ojv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.agrichapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

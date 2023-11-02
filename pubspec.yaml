@@ -1,0 +1,84 @@
+name: agrichapp
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  page_transition: ^2.0.9
+  intl_phone_field: ^3.2.0
+  pinput: ^3.0.0
+  google_nav_bar: ^5.0.6
+  intl: ^0.18.1
+  firebase_core: ^2.16.0
+  firebase_auth: ^4.10.0
+  google_sign_in: ^6.1.5
+  cloud_firestore: ^4.9.2
+  provider: ^6.0.5
+  equatable: ^2.0.5
+  shared_preferences: ^2.2.1
+  firebase_storage: ^11.2.8
+  shimmer: ^3.0.0
+  path: ^1.8.3
+  better_player: ^0.0.83
+  animated_text_kit: ^4.2.2
+  firebase_database: ^10.2.7
+  image_picker: ^1.0.4
+  path_provider: ^2.1.1
+  cached_network_image: ^3.3.0
+  flutter_cache_manager: ^3.3.1
+  crypto: ^3.0.3
+
+
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/android/icon.png"
+  remove_alpha_ios: true
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  adaptive_icon_background: "#0B570A"
+
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/tree.png
+    - assets/images/farmer.jpeg
+    - assets/images/leaves.jpeg
+    - assets/images/logo.png
+    - assets/images/google.png
+    - assets/images/addphoto.png
+  #   - images/a_dot_ham.jpeg
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+        - asset: assets/fonts/Poppins/Poppins-Light.ttf
+        - asset: assets/fonts/Poppins/Poppins-Italic.ttf
+          style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
